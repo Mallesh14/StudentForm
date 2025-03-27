@@ -1,0 +1,25 @@
+body{
+  background-color: rgb(215, 197, 233);
+  text-align: center;
+}
+.form-container{
+  background-color: rgb(237, 178, 106);
+  /* display: flex;
+  flex-direction: column; */
+  border-color: black;
+  padding: 10px;
+  border-width: 10px;
+  box-shadow: 4px 5px 10px black;
+  max-width: 600px;
+}
+label, input {
+    margin: 5px;
+    padding: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+.error{
+  color: red;
+}
